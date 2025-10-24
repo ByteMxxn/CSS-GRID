@@ -15,7 +15,7 @@ nav{
     width: 100%;
 }
 
-.nav{
+.header_nav{
     display: flex;
     align-items: center;
     background-color: rgb(192, 204, 204);
@@ -138,44 +138,89 @@ nav a:hover{
     margin: 20px;
 }
 
-.col{
+.reviewed_items{
     margin-top: 35px;
     display: flex;
 }
 
-.col1 h4{
+.reviewed_item_1 h4{
     margin-bottom: 7px;
 }
 
-.col2 img{
+.reviewed_item_2 img{
     margin-bottom: 7px;
 }
 
-.col2{
+.reviewed_item_2{
     margin-left: 15px;
 }
 
-.col h4{
+.reviewed_items h4{
     color: rgb(70, 70, 70);
     font-weight: 500;
     font-size: 12px;
 }
 
-.container h3{
+.reviewed_container_info_grid h3{
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 7px;
     color: rgb(11, 17, 51);
 }
 
-.container {
+.reviewed_container_info_grid {
     display: grid;
     margin-top: 30px;
     grid-template-columns: repeat(2, 1fr); 
     gap: 1rem; 
 }
 
-.container div {
+.reviewed_container_info_grid div {
     padding: 1rem;
     text-align: start;
+}
+
+/*SECCION WHAT WE DO*/
+
+.what_we_do{
+    background-color: rgb(34, 34, 34);
+    padding: 30px 20px;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.what_we_do span{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.what_we_do h3{
+    font-size: 25px;
+    color: antiquewhite;
+    margin-top: 60px;
+}
+
+.example{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    filter: opacity(20%);
+    animation: girar 90s linear infinite;
+}
+
+@keyframes girar{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
