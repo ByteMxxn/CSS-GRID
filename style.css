@@ -293,6 +293,7 @@ nav a:hover{
     border-radius: 8px;
     transition: transform 0.3s ease , box-shadow 0.2s ease 0.1s;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    min-width: 300px;
     
 }
 
@@ -347,4 +348,8 @@ nav a:hover{
 }
 .how_we_do_container_card{
     margin-top: 20px;
+    display: flex;
+    overflow: scroll;
+    max-width: 96%;
+    gap: 1rem;
 }
