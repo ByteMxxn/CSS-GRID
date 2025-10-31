@@ -1,0 +1,37 @@
+/*SECCION WHAT_WE_DO_ITEMS*/
+
+.container_items{
+    margin: 20px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 2fr); 
+    gap: 1rem; 
+}
+
+.container_item_card{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: transform 0.3s ease , box-shadow 0.2s ease 0.1s;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    
+}
+
+.container_item_card:hover{
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.158);
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.container_item_card h4{
+    font-size: 18px;
+    color: rgb(11, 17, 51);
+    margin-top: 10px;
+}
+
+.container_item_card p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: #4d4d4d;
+}

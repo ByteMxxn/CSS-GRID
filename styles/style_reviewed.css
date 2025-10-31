@@ -1,0 +1,47 @@
+/*SECCION REVIEWED*/
+
+.reviewed{
+    margin: 20px;
+}
+
+.reviewed_items{
+    margin-top: 35px;
+    display: flex;
+}
+
+.reviewed_item_1 h4{
+    margin-bottom: 7px;
+}
+
+.reviewed_item_2 img{
+    margin-bottom: 7px;
+}
+
+.reviewed_item_2{
+    margin-left: 15px;
+}
+
+.reviewed_items h4{
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.reviewed_container_info_grid h3{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: rgb(11, 17, 51);
+}
+
+.reviewed_container_info_grid {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+}
+
+.reviewed_container_info_grid div {
+    padding: 1rem;
+    text-align: start;
+}

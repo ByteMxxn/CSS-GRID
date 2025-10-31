@@ -1,0 +1,44 @@
+/*SECCION WHAT WE DO*/
+
+.what_we_do{
+    background-color: rgb(34, 34, 34);
+    padding: 30px 20px;
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.what_we_do span{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.what_we_do h3{
+    font-size: 25px;
+    color: antiquewhite;
+    margin-top: 60px;
+}
+
+.example{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    filter: opacity(20%);
+    animation: girar 90s linear infinite;
+}
+
+@keyframes girar{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
