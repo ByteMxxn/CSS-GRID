@@ -1,0 +1,105 @@
+/*SECCION WHAT WE USE*/
+
+.what_we_use span{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.what_we_use{
+    background-color: rgb(34, 34, 34);
+    padding: 30px 20px;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+
+.what_we_use_content{
+    margin-top: 30px;
+    color: white;
+}
+
+.what_we_use_content p{
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/*/*/
+
+.what_we_use_your_it_challenge_container{
+    display: flex;
+    justify-content: center;
+}
+
+.title_what_we_use{
+    margin-top: 50px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px; 
+    background-color: rgb(24, 24, 24);
+}
+
+.title_what_we_use h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+}
+
+.what_we_use_cards_container{
+    display: flex;
+    margin-top: 20px;
+    overflow: scroll;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.what_we_use_card{
+    min-width: 100%;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.what_we_use_card h3{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.what_we_use_card p{
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 20px;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+.what_we_use_view_more{
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(14, 14, 14);
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.what_we_use_view_more a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-weight: 300;
+}
+
+
+

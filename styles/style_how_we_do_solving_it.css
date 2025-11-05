@@ -3,7 +3,63 @@
 }
 
 .title_how_we_do_solving_it{
+    margin-top: 30px;
     color: rgb(11, 17, 51);
     text-align: start;
 }
 
+.container_how_we_do_solving_it{
+    margin-top: 30px;
+}
+
+.images_how_we_do_solving_it{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 50px;
+}
+
+.images_how_we_do_solving_it h4{
+    color: rgb(11, 17, 51);
+    font-weight: 650;
+    font-size: 15px;
+}
+
+.img_how_we_do_solving_it{
+    border-radius: 50px;
+}
+
+.how_we_do_solving_it span{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: rgb(33, 35, 37);
+    background-color: rgba(0, 0, 0, 0.089);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.how_we_do_solving_it_view_all_industries{
+    margin-top: 40px;
+    font-weight: 650;
+    color: blue;
+    font-size: 12px;
+}
+
+.how_we_do_solving_it_view_all_industries a{
+    text-decoration: none;
+    list-style: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-size: 0% 2px; 
+    background-position: 0 100%; 
+    transition: background-size 0.5s, background-position 0s 0.5s;
+}
+
+.how_we_do_solving_it_view_all_industries a:hover{
+    color: #4d4d4d;
+    background-size: 100% 2px; 
+    background-position: 0 100%; 
+}
