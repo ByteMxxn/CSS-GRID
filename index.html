@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="styles/style_what_we_use.css">
     <link rel="stylesheet" href="styles/style_where_we_do.css">
     <link rel="stylesheet" href="styles/style_contact_us.css">
-
+    <link rel="stylesheet" href="styles/style_form_consultation.css">
+    <link rel="stylesheet" href="styles/style_partners.css">
 
 </head>
 <body>
@@ -24,7 +25,7 @@
             <img src="https://tecnologia.vamtam.com/wp-content/uploads/2023/03/logo.svg" alt="logo_tecnologia" width="120px">
 
             <div class="contact_us_menu">
-                <a href="#" class="contact_us">Contact Us</a>
+                <a href="#" class="contact_us_btn">Contact Us</a>
                 <img src="./img/navbar/menu.png" alt="hamburguer">
             </div>
         </div>
@@ -426,9 +427,10 @@
     </section>
 
     <section class="contact_us">
-        <span class="contact_us_category">CONTACT US</span>
-        <div class="contact_us_content">
-            <h2>Partner with Us for Comprehensive IT</h2>
+
+        <div class="contact_us_banner">
+            <span class="contact_us_category">CONTACT US</span>
+            <div class="contact_us_content"><h2>Partner with Us for Comprehensive IT</h2></div>
         </div>
         
         <div class="contact_us_info">
@@ -488,10 +490,68 @@
                     </li>
                     
                 </ul>
-            </div>
-
-            
+            </div>      
         </div>
     </section>
 
+    <section class="form_consultation">
+
+        <div class="title_consultation">
+            <h2>Schedule a Free Consultation</h2>
+            <img src="./img/form_consultation/flecha.png" alt="" width="12px">
+        </div>
+
+
+        <form class="form_consultation_container">
+            <h4 class="title_input">First Name</h4>
+            <input type="text" required>
+
+            <h4 class="title_input">Last Name</h4>
+            <input type="text" required>
+
+            <h4 class="title_input">Company / Organization</h4>
+            <input type="text" required>
+
+            <h4 class="title_input">Company email</h4>
+            <input type="email" required>
+
+            <h4 class="title_input">Phone</h4>
+            <input type="tel" required>
+
+            <h4>Selecciona un servicio:</h4>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Select Option</option>
+                    <option value="managed">Managed Services</option>
+                    <option value="consulting">IT Consulting & Advisory</option>
+                    <option value="cyber">Cyber Security</option>
+                    <option value="web">Web Development</option>
+                    <option value="mobile">Mobile Development</option>
+                    <option value="cloud">Cloud Services</option>
+                </select>
+            
+            <h4 class="title_input">Message</h4>
+            <textarea placeholder="To better assist you, please describe how we can help..." required></textarea>
+        </form>
+
+        <a class="btn_consultation" href="#">Submit</a>
+    </section>
+
+    <section class="partners">
+        <div class="partners_banner">
+            <span class="partners_category">PARTNERS</span>
+            <div class="partners_content"><h2>Recognized by the best</h2></div>
+            <p class="partners_parrafo">The company needed to complete a complex migration on a tight deadline to avoid millions of dollars in post-contract fees and fines.</p>
+        </div>
+
+        <div class="partners_logo">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </section>
 </html>

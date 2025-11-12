@@ -1,0 +1,116 @@
+.form_consultation{
+    margin: 20px;
+}
+
+.title_consultation{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.title_consultation h2{
+    margin-top: 20px;
+    color: rgb(10, 5, 31);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.title_consultation img{
+    margin: auto;
+}
+
+.form_consultation_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+}
+
+.form_consultation_container h4{
+    color: rgb(39, 39, 39);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: border .3s ease, box-shadow 0.3s ease;
+}
+
+input:hover{
+    border: 1px solid rgb(83, 129, 255);
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid rgb(14, 72, 231);
+    box-shadow: 0 0 5px rgba(8, 19, 179, 0.116);
+}
+
+select{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    transition: border .3s ease, box-shadow 0.3s ease;
+}
+
+select:hover{
+    border: 1px solid rgb(83, 129, 255);
+}
+
+select:focus{
+    outline: none;
+    border: 1px solid rgb(14, 72, 231);
+    box-shadow: 0 0 5px rgba(8, 19, 179, 0.116);
+}
+
+option{
+    color: rgba(31, 31, 31, 0.548);
+}
+
+textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 2px;
+    font-size: 14px;
+    height: 80px;
+    margin-bottom: 20px;
+    transition: border .3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+}
+
+textarea:hover{
+    border: 1px solid rgb(83, 129, 255);
+}
+
+textarea:focus{
+    outline: none;
+    border: 1px solid rgb(14, 72, 231);
+    box-shadow: 0 0 5px rgba(8, 19, 179, 0.116);
+}
+
+.btn_consultation{
+    margin-top: 10px;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    background-color: rgb(8, 19, 179);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    width: 6rem;
+    text-align: center;
+}
