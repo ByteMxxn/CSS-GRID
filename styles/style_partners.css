@@ -1,0 +1,41 @@
+.partners{
+    margin: 120px 20px;
+}
+
+.partners_category{
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: rgb(48, 48, 49);
+    background-color: rgba(194, 194, 194, 0.507);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.partners_content{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: rgb(11, 17, 51);
+}
+
+.partners_parrafo{
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    max-width: 350px;
+    line-height: 32px;
+}
+
+.partners_logo img{
+    margin-top: 20px;
+}
+
+.partners_logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    padding: 20px;
+}
+
